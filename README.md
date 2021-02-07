@@ -39,8 +39,8 @@ $ cd all-my-links-react
 # Install dependencies
 $ yarn install
 
-# Start the bundler
-$ yarn start
+# Start the development bundler
+$ yarn dev
 ```
 
 This project consumes the API [all-my-links-backend]([htt](https://github.com/vini-coelho/all-my-links-backend)) running at localhost on Port 3333, so be sure to get it too to run the application locally. 
