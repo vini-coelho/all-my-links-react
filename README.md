@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <!-- <img alt="React Native Twitch.tv" width="300px" src="https://res.cloudinary.com/dhcpizhbr/image/upload/v1606341394/readme-assets/TwitchExtrudedWordmarkPurple_y3mimi.svg" /> -->
+    <br>
+    :paperclip: All My Links
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  Linktree inspired tool built with ReactJS & Styled Components :nail_care:
+</h4>
 
-## Available Scripts
+## :camera: Screenshots
 
-In the project directory, you can run:
+<div align="center">
+    <img src="https://github.com/vini-coelho/all-my-links-react/blob/master/screenshots/screenshot1.png" height="450" alt="Main page"/>
+</div>
 
-### `yarn start`
+## :rocket: Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed by Vinícius Coelho for studying purposes with the following technologies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-  [ReactJS](https://reactnative.dev/)
+-  [TypeScript](https://www.typescriptlang.org/)
+-  [React Router](https://reactrouter.com/)
+-  [styled-components](https://www.styled-components.com/)
+-  [react-icons](https://react-icons.github.io/react-icons/)
+-  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-### `yarn test`
+## :information_source: How To Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
 
-### `yarn build`
+```bash
+# Clone this repository
+$ git clone https://github.com/vini-coelho/all-my-links-react
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Go into the repository
+$ cd all-my-links-react
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+$ yarn install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start the bundler
+$ yarn start
+```
 
-### `yarn eject`
+This project consumes the API [all-my-links-backend]([htt](https://github.com/vini-coelho/all-my-links-backend)) running at localhost on Port 3333, so be sure to get it too to run the application locally. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :memo: License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is under the MIT license. See the [LICENSE](./LICENSE) for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Made with ♥ by Vinicius Coelho :wave: [Get in touch!](https://www.linkedin.com/in/viniciustcoelho/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
