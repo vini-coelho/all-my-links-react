@@ -11,7 +11,7 @@
 ## :camera: Screenshots
 
 <div align="center">
-    <img src="https://github.com/vini-coelho/all-my-links-react/blob/master/screenshots/screenshot1.png" height="450" alt="Main page"/>
+    <img src="https://github.com/vini-coelho/all-my-links-react/blob/master/public/screenshot1.png" height="500" alt="Main page"/>
 </div>
 
 ## :rocket: Technologies
